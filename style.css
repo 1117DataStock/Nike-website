@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(206, 203, 203);
+    position: relative;
+    
+}
+
+ #nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+     height: 70px;  
+     padding: 0 50px;
+} 
+
+#nav img{
+    height: 45px;
+    margin-right: 150px ;
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+}
+
+#nav1 h4{
+    margin-right: 60px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#nav2 i{
+    margin-right: 40px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#content { 
+    width: 100%;
+    height: calc(100% - 70px );
+    position: relative;
+    display: flex;
+}
+
+#left{  
+    width: 40%;
+    height: 100%;
+    padding: 90px 100px;
+    /* margin-top: 5 %; */
+}
+
+#left h5{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(105, 104, 104);
+    margin-bottom: 15px;
+}
+
+#left h1{
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+#left p{
+    font-size:12px ;
+    font-weight: 400;
+    width: 70%;
+    margin-bottom: 35px;
+}
+
+#left button{
+     background-color: black;
+     color: white;
+     font-size: 12px;
+     font-weight: 500;
+     padding: 18px 35px;
+     border-radius: 50px;
+     border-top-left-radius: 0px;
+     text-transform: uppercase;
+     cursor: pointer;
+}
+
+#right{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    padding: 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: red; */
+}
+
+.ele{
+    
+    height: 290px;
+    width: 220px;
+    background-color: white;
+    position: relative;
+    border-radius:  5px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.5);
+    margin-right: 30px;
+    padding: px;
+    display: inline-block;
+}
+
+.ele img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain ;
+    position: absolute;
+    bottom: 10%;
+}
+
+.ele h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(194, 191, 191);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.ele h5{
+    position: absolute;
+    bottom: 12.5%;
+    right: 0;
+    background-color:rgb(7, 7, 7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+}
